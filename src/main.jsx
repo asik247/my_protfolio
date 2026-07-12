@@ -3,13 +3,13 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider } from 'react-router'
 import router from './Router/Router'
-import Root from './Root/Root'
+import RootLayout from './Layouts/RootLayout'
 
-
+//! main code here;
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}>
-      <Root></Root>
+      <RootLayout></RootLayout>
     </RouterProvider>
   </StrictMode>,
 )
