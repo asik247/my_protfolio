@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaArrowUpRightFromSquare } from 'react-icons/fa6';
+import {GitHubCalendar} from 'react-github-calendar';
 import {
     SiReact,
     SiNextdotjs,
@@ -16,8 +17,6 @@ import {
     SiVercel,
 } from 'react-icons/si';
 
-// Each tech carries its own icon + brand color so the stack
-// reads at a glance instead of as plain text pills.
 const techStack = [
     { name: 'react', icon: SiReact, color: '#61DAFB' },
     { name: 'next.js', icon: SiNextdotjs, color: '#FFFFFF' },
@@ -49,8 +48,6 @@ const stagger = {
     },
 };
 
-// Small reusable "terminal" chrome used across every card.
-// This is the signature element that ties the section together.
 const TerminalHeader = ({ path }) => (
     <div className="flex items-center gap-2 px-4 py-3 border-b border-base-300/70">
         <span className="w-2.5 h-2.5 rounded-full bg-error/70" />
@@ -71,7 +68,7 @@ const GithubSection = () => {
             variants={stagger}
             className="relative py-16 md:py-24"
         >
-            <div className="relative max-w-7xl mx-auto px-4 md:px-6">
+            <div className="relative w-full p-2">
 
                 {/* Header */}
                 <motion.div variants={fadeUp} className="mb-12 md:mb-16">
@@ -103,6 +100,28 @@ const GithubSection = () => {
                     <div className="lg:col-span-8 space-y-6">
 
                         {/* Contribution graph */}
+                        {/* <motion.div
+                            variants={fadeUp}
+                            whileHover={{ y: -6 }}
+                            transition={{ type: 'spring', stiffness: 300, damping: 22 }}
+                            className="rounded-2xl border border-base-300 bg-base-200/40 overflow-hidden"
+                        >
+                            <TerminalHeader path="~/github/contributions --last-year" />
+
+                            <div className="p-4 sm:p-6">
+                               
+                                <div className="w-full overflow-x-auto">
+                                    <img
+                                        src="https://ghchart.rshah.org/asik247"
+                                        alt="GitHub Contribution Graph"
+                                        className="min-w-[600px] sm:min-w-0 w-full rounded-lg"
+                                    />
+                                </div>
+                            </div>
+                        </motion.div> */}
+                        {/* update version */}
+                        
+
                         <motion.div
                             variants={fadeUp}
                             whileHover={{ y: -6 }}
@@ -112,13 +131,16 @@ const GithubSection = () => {
                             <TerminalHeader path="~/github/contributions --last-year" />
 
                             <div className="p-4 sm:p-6">
-                                {/* Horizontal scroll on small screens so the chart never clips */}
                                 <div className="w-full overflow-x-auto">
-                                    <img
-                                        src="https://ghchart.rshah.org/asik247"
-                                        alt="GitHub Contribution Graph"
-                                        className="min-w-[600px] sm:min-w-0 w-full rounded-lg"
-                                    />
+                                    <div className="min-w-[800px]">
+                                        <GitHubCalendar
+                                            username="asik247"
+                                            fontSize={14}
+                                            blockSize={14}
+                                            blockMargin={5}
+                                            colorScheme="light"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </motion.div>

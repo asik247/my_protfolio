@@ -18,6 +18,7 @@ const Nav = ({ theme, setTheme }) => {
         { name: '~/contact', path: '/contact' },
         { name: '~/reviews', path: '/reviews' },
     ];
+    
 
     return (
         <>

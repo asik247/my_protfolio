@@ -36,7 +36,7 @@ const About = () => {
 
 
 
-            <div className="w-full flex-1">
+            <div className="w-full flex-1 ">
 
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-16  p-2 ">
 
