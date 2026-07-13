@@ -14,14 +14,25 @@ const questions = [
 ];
 
 const socials = [
-    { icon: FaGithubSquare, href: 'https://github.com', label: 'github.com/mdasik247' },
-    { icon: ImLinkedin, href: 'https://linkedin.com', label: 'linkedin.com/in/mdasik' },
-    { icon: MdEmail, href: 'mailto:yourmail@gmail.com', label: 'yourmail@gmail.com' },
+    {
+        icon: FaGithubSquare,
+        href: 'https://github.com/asik247',
+        label: 'GitHub',
+    },
+    {
+        icon: ImLinkedin,
+        href: 'https://www.linkedin.com/in/asik5893/',
+        label: 'LinkedIn',
+    },
+    {
+        icon: MdEmail,
+        href: 'mailto:mdasik855789@gmail.com',
+        label: 'Say Hello',
+    },
 ];
-
 const About = () => {
     return (
-        <section className="relative min-h-screen w-full overflow-hidden flex items-center py-34 md:py-24 font-mono">
+        <section className="relative min-h-screen w-full overflow-hidden flex items-center pt-34 md:pt-24 font-mono">
 
 
 
