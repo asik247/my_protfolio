@@ -119,7 +119,7 @@ const RootLayout = () => {
                             backgroundImage:
                                 'radial-gradient(currentColor 1.5px, transparent 1.5px)',
                             backgroundSize: '28px 28px',
-                            opacity: 0.9,
+                            opacity:1,
                             WebkitMaskImage: spotlightMask,
                             maskImage: spotlightMask,
                         }}
