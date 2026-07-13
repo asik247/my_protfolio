@@ -1,4 +1,42 @@
 @import "tailwindcss";
-@plugin "daisyui"{
-  themes: light --default;
+@plugin "daisyui";
+
+/* Smooth theme transition */
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html,
+body,
+nav,
+footer,
+section,
+div,
+main,
+article,
+aside,
+header,
+button,
+a,
+input,
+textarea {
+  transition:
+    background-color 300ms ease,
+    color 300ms ease,
+    border-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better text rendering */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
