@@ -22,10 +22,26 @@ import { MdEmail } from 'react-icons/md';
 const AboutMe = () => {
     const info = [
         { label: 'name', value: 'Md Asik', icon: User },
-        { label: 'age', value: '20 // born 2005', icon: Calendar }, // TODO: apnar actual age/birth year din
+        {
+            label: 'age',
+            value: (
+                <>
+                    20 // <span className="text-emerald-500 font-semibold">born 2005</span>
+                </>
+            ),
+            icon: Calendar,
+        }, // TODO: apnar actual age/birth year din
         { label: 'based in', value: 'Dhaka, BD // GMT+6', icon: MapPin },
         { label: 'speaks', value: 'Bangla (native), English (fluent)', icon: Languages },
-        { label: 'status', value: 'Open to Internship & Freelance', icon: BriefcaseBusiness },
+        {
+            label: 'status',
+            value: (
+                <>
+                    Open to <span className="text-emerald-500 font-semibold">Internship</span> & Freelance
+                </>
+            ),
+            icon: BriefcaseBusiness,
+        },
     ];
 
     const timeline = [
@@ -87,7 +103,7 @@ const AboutMe = () => {
             {/* ========== HERO / WHOAMI ========== */}
             <section
                 id="about"
-                className="relative max-w-7xl mx-auto px-6 lg:px-10 py-24"
+                className="relative w-full pt-30 md:pt-40  p-2"
             >
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -104,7 +120,7 @@ const AboutMe = () => {
                     </h2>
                 </motion.div>
 
-                <div className="mt-16 grid lg:grid-cols-[1.15fr_1fr] gap-y-14 gap-x-16 items-start">
+                <div className="mt-5 grid lg:grid-cols-[1.15fr_1fr] gap-y-14 gap-x-16 items-start">
                     {/* LEFT */}
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
@@ -117,50 +133,39 @@ const AboutMe = () => {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3 }}
-                            className="text-5xl md:text-6xl lg:text-7xl font-bold leading-none tracking-tight"
+                            className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight tracking-tight"
                         >
-                            <span className="text-emerald-500">$</span>{' '}
-                            hi, I'm{' '}
-                            <span className="text-emerald-500">Md Asik</span>
-                            <motion.span
-                                animate={{
-                                    opacity: [1, 0, 1],
-                                }}
-                                transition={{
-                                    duration: 1,
-                                    repeat: Infinity,
-                                }}
-                                className="text-emerald-500 ml-2 font-light"
-                            >
-                                ▋
-                            </motion.span>
+                            Md Asik{' '}
+                            <span className="text-emerald-500">· @asik</span>
                         </motion.h1>
 
-                        {/* Role */}
-                        <motion.h2
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.4 }}
-                            className="flex flex-wrap items-center gap-x-3 gap-y-1 text-base md:text-lg mt-5 text-base-content/60 tracking-wide"
-                        >
-                            <span>MERN Stack Developer</span>
-                            <span className="text-emerald-500/60">|</span>
-                            <span>React Developer</span>
-                            <span className="text-emerald-500/60">|</span>
-                            <span>Future AI Engineer</span>
-                        </motion.h2>
-
                         {/* Description */}
-                        <motion.p
+                        {/* <motion.p
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.5 }}
-                            className="max-w-2xl mt-8 text-sm md:text-base leading-relaxed text-base-content/70 font-sans"
+                            className="max-w-2xl mt-6 text-sm md:text-base leading-relaxed text-base-content/70 font-sans"
                         >
                             I build <span className="text-emerald-400 font-semibold">modern, scalable web applications</span> using
                             React, Node.js, Express, MongoDB, Firebase and Tailwind CSS. Right now I'm sharpening my skills to grow
                             into an <span className="text-emerald-400 font-semibold">AI Engineer</span>, while continuously
                             shipping <span className="text-emerald-400 font-semibold">real, production-ready projects</span>.
+                        </motion.p> */}
+                        {/* update des */}
+                        <motion.p
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.5 }}
+                            className="max-w-2xl mt-6 text-sm md:text-base leading-relaxed text-base-content/70 font-sans"
+                        >
+                            A Dhaka-based developer focused on the{' '}
+                            <span className="text-emerald-400 font-semibold">MERN stack</span>, turning ideas into
+                            clean, working products with React, Node.js, Express and MongoDB. Currently deepening my
+                            fundamentals in{' '}
+                            <span className="text-emerald-400 font-semibold">machine learning and AI</span>, with the
+                            goal of becoming an{' '}
+                            <span className="text-emerald-400 font-semibold">AI Engineer</span> who builds systems
+                            end to end, not just prompts them.
                         </motion.p>
 
                         {/* INFO PANEL */}
@@ -385,9 +390,9 @@ const AboutMe = () => {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                                className="relative"
+                                className="group relative"
                             >
-                                <span className="absolute -left-[52px] md:-left-[60px] top-0 flex items-center justify-center w-11 h-11 rounded-full bg-base-100 border border-base-300 text-emerald-500 shadow-sm">
+                                <span className="absolute -left-[52px] md:-left-[60px] top-0 flex items-center justify-center w-11 h-11 rounded-full bg-base-100 border border-base-300 text-emerald-500 shadow-sm transition-all duration-300 group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 group-hover:shadow-emerald-500/40 group-hover:shadow-lg">
                                     <Icon size={18} strokeWidth={2} />
                                 </span>
                                 <p className="font-mono text-emerald-500 text-sm">{t.year}</p>
@@ -433,12 +438,13 @@ const AboutMe = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: i * 0.1 }}
-                            className="border border-base-300 rounded-2xl p-6"
+                            whileHover={{ y: -6 }}
+                            className="group border border-base-300 rounded-2xl p-6 transition-all duration-300 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/10"
                         >
-                            <p className="font-mono text-xs tracking-widest text-primary">
+                            <p className="font-mono text-xs tracking-widest text-emerald-500 group-hover:text-emerald-400 transition-colors">
                                 ▸ {c.tag}
                             </p>
-                            <h4 className="mt-3 text-lg font-bold leading-snug">
+                            <h4 className="mt-3 text-lg font-bold leading-snug group-hover:text-emerald-500 transition-colors">
                                 {c.title}
                             </h4>
                             <p className="mt-2 text-sm text-base-content/70 leading-relaxed">
