@@ -15,6 +15,13 @@ import {
     Expand,
 } from 'lucide-react';
 import myImg from '../../assets/profile.jpg';
+// import setupImg from '../../assets/setup.jpg';
+import setupImg2 from '../../assets/moment_setup.jpg';
+// import myImgCoding from '../../assets/asik_about_photo.jpg';
+import myImgCoding2 from '../../assets/my.jpg';
+import myImgCofy from '../../assets/cofyMyImg.jpg';
+import focusImg from '../../assets/focus_moment.jpg';
+//? react icons
 import { FaGithubSquare } from 'react-icons/fa';
 import { ImLinkedin } from 'react-icons/im';
 import { MdEmail } from 'react-icons/md';
@@ -90,10 +97,10 @@ const AboutMe = () => {
     ];
 
     const moments = [
-        { src: myImg, caption: '~/me/setup.jpg' },
-        { src: myImg, caption: '~/me/coding.jpg' },
-        { src: myImg, caption: '~/me/coffee.jpg' },
-        { src: myImg, caption: '~/me/focus.jpg' },
+        { src: setupImg2, caption: '~/me/setup.jpg' },
+        { src: myImgCoding2, caption: '~/me/coding.jpg' },
+        { src: myImgCofy, caption: '~/me/coffee.jpg' },
+        { src: focusImg, caption: '~/me/focus.jpg' },
     ]; // TODO: replace with apnar real photos, import kore array e boshan
 
     const [lightboxImg, setLightboxImg] = useState(null);
@@ -138,19 +145,6 @@ const AboutMe = () => {
                             Md Asik{' '}
                             <span className="text-emerald-500">· @asik</span>
                         </motion.h1>
-
-                        {/* Description */}
-                        {/* <motion.p
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.5 }}
-                            className="max-w-2xl mt-6 text-sm md:text-base leading-relaxed text-base-content/70 font-sans"
-                        >
-                            I build <span className="text-emerald-400 font-semibold">modern, scalable web applications</span> using
-                            React, Node.js, Express, MongoDB, Firebase and Tailwind CSS. Right now I'm sharpening my skills to grow
-                            into an <span className="text-emerald-400 font-semibold">AI Engineer</span>, while continuously
-                            shipping <span className="text-emerald-400 font-semibold">real, production-ready projects</span>.
-                        </motion.p> */}
                         {/* update des */}
                         <motion.p
                             initial={{ opacity: 0, y: 30 }}
