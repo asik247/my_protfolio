@@ -1,15 +1,29 @@
 import React from 'react';
 import About from '../About/About';
 import GithubSection from '../GithubDetails/GithubSection';
-// import Projects from '../Projects/Projects';
+import Projects from '../Projects/Projects';
+import AboutMe from '../AboutMe/AboutMe';
+import Blog from '../Blog/Blog';
+import Reviews from '../Reviews/Reviews';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
-        <div>
-            <About></About>
-            <GithubSection></GithubSection>
-            {/* <Projects></Projects> */}
-        </div>
+        <>
+            <section id="home" className="scroll-mt-28">
+                <About />
+            </section>
+
+            <GithubSection />
+
+            <section id="projects" className="scroll-mt-28">
+                <Projects />
+            </section>
+
+            <section id="contact" className="scroll-mt-28">
+                <Contact />
+            </section>
+        </>
     );
 };
 
