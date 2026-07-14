@@ -127,7 +127,7 @@ const About = () => {
                             transition={{ delay: 0.7 }}
                             className="flex flex-wrap items-center gap-4 mt-10 text-sm"
                         >
-                            <motion.button
+                            {/* <motion.button
                                 whileHover={{ scale: 1.04 }}
                                 whileTap={{ scale: 0.97 }}
                                 className="btn btn-success rounded-full px-8 font-mono normal-case group"
@@ -141,6 +141,20 @@ const About = () => {
                                 >
                                     <FaArrowRight />
                                 </motion.span>
+                            </motion.button> */}
+                            {/* update version */}
+                            <motion.button
+                                onClick={() => {
+                                    document
+                                        .getElementById("contact")
+                                        ?.scrollIntoView({ behavior: "smooth" });
+                                }}
+                                whileHover={{ scale: 1.04 }}
+                                whileTap={{ scale: 0.97 }}
+                                className="btn btn-success rounded-full px-8 font-mono normal-case group"
+                            >
+                                get in touch
+                                <FaArrowRight />
                             </motion.button>
 
                             <motion.button

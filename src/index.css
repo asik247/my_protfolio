@@ -1,13 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui";
 
-/* Smooth theme transition */
+/* Base */
 html,
 body,
 #root {
   min-height: 100%;
 }
 
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Font */
+body {
+  font-family: "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+/* Mono Text */
+.font-mono,
+code,
+pre {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Smooth theme transition */
 html,
 body,
 nav,
@@ -27,16 +62,4 @@ textarea {
     color 300ms ease,
     border-color 300ms ease,
     box-shadow 300ms ease;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Better text rendering */
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

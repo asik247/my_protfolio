@@ -99,26 +99,7 @@ const GithubSection = () => {
                     {/* Left column */}
                     <div className="lg:col-span-8 space-y-6">
 
-                        {/* Contribution graph */}
-                        {/* <motion.div
-                            variants={fadeUp}
-                            whileHover={{ y: -6 }}
-                            transition={{ type: 'spring', stiffness: 300, damping: 22 }}
-                            className="rounded-2xl border border-base-300 bg-base-200/40 overflow-hidden"
-                        >
-                            <TerminalHeader path="~/github/contributions --last-year" />
-
-                            <div className="p-4 sm:p-6">
-                               
-                                <div className="w-full overflow-x-auto">
-                                    <img
-                                        src="https://ghchart.rshah.org/asik247"
-                                        alt="GitHub Contribution Graph"
-                                        className="min-w-[600px] sm:min-w-0 w-full rounded-lg"
-                                    />
-                                </div>
-                            </div>
-                        </motion.div> */}
+                        
                         {/* update version */}
                         
 
@@ -192,15 +173,52 @@ const GithubSection = () => {
                                     </div>
                                 </div>
 
-                                <a
-                                    href="https://github.com/asik247"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="btn btn-primary w-full"
-                                >
-                                    Visit GitHub
-                                    <FaArrowUpRightFromSquare />
-                                </a>
+                               <a
+    href="https://github.com/asik247"
+    target="_blank"
+    rel="noreferrer"
+    className="
+    relative
+    overflow-hidden
+    btn
+    btn-primary
+    w-full
+    group
+    border-none
+    transition-all
+    duration-500
+    hover:-translate-y-1
+    hover:shadow-[0_0_30px_rgba(16,185,129,0.30)]
+"
+>
+    <span
+        className="
+        absolute
+        inset-0
+        bg-gradient-to-r
+        from-white/20
+        via-transparent
+        to-white/20
+        -translate-x-full
+        group-hover:translate-x-full
+        transition-transform
+        duration-1000
+    "
+    />
+
+    <span className="relative z-10 flex items-center gap-2">
+        Visit GitHub
+
+        <FaArrowUpRightFromSquare
+            className="
+            transition-transform
+            duration-300
+            group-hover:translate-x-1
+            group-hover:-translate-y-1
+        "
+        />
+    </span>
+</a>
                             </div>
                         </motion.div>
 
