@@ -5,6 +5,7 @@ import { ImLinkedin } from 'react-icons/im';
 import { MdEmail } from 'react-icons/md';
 import { GoDotFill } from 'react-icons/go';
 import { HiOutlineSparkles } from 'react-icons/hi2';
+import { Link } from 'react-router';
 
 const questions = [
     { q: 'what is your stack?', a: 'React, Node.js, Express, MongoDB, Firebase & Tailwind CSS.' },
@@ -127,21 +128,7 @@ const About = () => {
                             transition={{ delay: 0.7 }}
                             className="flex flex-wrap items-center gap-4 mt-10 text-sm"
                         >
-                            {/* <motion.button
-                                whileHover={{ scale: 1.04 }}
-                                whileTap={{ scale: 0.97 }}
-                                className="btn btn-success rounded-full px-8 font-mono normal-case group"
-                            >
-                                get in touch
-                                <motion.span
-                                    className="flex"
-                                    initial={{ x: 0 }}
-                                    whileHover={{ x: 4 }}
-                                    transition={{ type: 'spring', stiffness: 300 }}
-                                >
-                                    <FaArrowRight />
-                                </motion.span>
-                            </motion.button> */}
+
                             {/* update version */}
                             <motion.button
                                 onClick={() => {
@@ -157,20 +144,23 @@ const About = () => {
                                 <FaArrowRight />
                             </motion.button>
 
-                            <motion.button
-                                whileHover={{ scale: 1.04 }}
-                                whileTap={{ scale: 0.97 }}
-                                className="btn btn-outline rounded-full px-8 font-mono normal-case group"
-                            >
-                                <motion.span
-                                    className="flex"
-                                    whileHover={{ rotate: -12, scale: 1.15 }}
-                                    transition={{ type: 'spring', stiffness: 300 }}
+                            <Link to={'/projectDetail/id'}>
+                                <motion.button
+                                    whileHover={{ scale: 1.04 }}
+                                    whileTap={{ scale: 0.97 }}
+                                    className="btn btn-outline rounded-full px-8 font-mono normal-case group"
                                 >
-                                    <FaFolderOpen />
-                                </motion.span>
-                                ls projects/
-                            </motion.button>
+                                    <motion.span
+                                        className="flex"
+                                        whileHover={{ rotate: -12, scale: 1.15 }}
+                                        transition={{ type: 'spring', stiffness: 300 }}
+                                    >
+                                        <FaFolderOpen />
+                                    </motion.span>
+                                    ls projects/
+                                </motion.button>
+                            </Link>
+
                         </motion.div>
 
                         {/* Social Links */}

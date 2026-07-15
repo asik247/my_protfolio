@@ -55,16 +55,19 @@ const Contact = () => {
     return (
         <section
             id="contact"
-            className="w-full pt-28 md:pt-36 pb-24 p-2 "
+            className="w-full my-10 md:my-20 p-2"
         >
             <div className="w-full">
                 {/* TOP BORDER */}
-                <div className="border-t border-base-300 pt-12">
+                <div >
 
 
                     {/* TITLE */}
-                    <p className="font-mono text-emerald-500 uppercase tracking-[0.3em] text-sm mb-6">
-                        03 <span className="text-gray-400">Get In Touch</span>
+                    {/* <p className="font-mono text-emerald-500 uppercase text-sm mb-6">
+                        03 <span className="text-gray-400">GetInTouch</span>
+                    </p> */}
+                    <p className="text-emerald-400 font-mono text-sm mb-4 tracking-wider">
+                        03 <span className="text-base-content/50">GetInTouch</span>
                     </p>
 
                     <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
@@ -379,7 +382,7 @@ const Contact = () => {
                                         value={form.name}
                                         onChange={handleChange}
                                         required
-                                       className="
+                                        className="
 w-full
 pl-12
 pr-4
