@@ -1,0 +1,852 @@
+[
+  {
+    "_id": {
+      "$oid": "a4c123b1612dd272d1371c17"
+    },
+    "projectId": 1,
+    "projectName": "LocalChefBazaar",
+    "slug": "localchefbazaar",
+    "featured": true,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "LocalChefBazaar is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://localchefbazaar-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/localchefbazaar-client",
+    "githubServer": "https://github.com/asik247/localchefbazaar-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=LocalChefBazaar",
+    "coverImage": "https://placehold.co/1600x900/png?text=LocalChefBazaar+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+1",
+      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+2",
+      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+3",
+      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "149d439536b3216fdaeeb975"
+    },
+    "projectId": 2,
+    "projectName": "Zap-Shift",
+    "slug": "zap-shift",
+    "featured": true,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "Zap-Shift is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://zap-shift-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/zap-shift-client",
+    "githubServer": "https://github.com/asik247/zap-shift-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=Zap-Shift",
+    "coverImage": "https://placehold.co/1600x900/png?text=Zap-Shift+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+1",
+      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+2",
+      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+3",
+      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "729fae923d5a4fd12aabfe22"
+    },
+    "projectId": 3,
+    "projectName": "Car Website",
+    "slug": "car-website",
+    "featured": true,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "Car Website is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://carwebsite-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/car-website-client",
+    "githubServer": "https://github.com/asik247/car-website-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=Car Website",
+    "coverImage": "https://placehold.co/1600x900/png?text=Car Website+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=Car Website+Screen+1",
+      "https://placehold.co/1600x900/png?text=Car Website+Screen+2",
+      "https://placehold.co/1600x900/png?text=Car Website+Screen+3",
+      "https://placehold.co/1600x900/png?text=Car Website+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f219e9cb0eb53f16947ccf2"
+    },
+    "projectId": 4,
+    "projectName": "Thrust",
+    "slug": "thrust",
+    "featured": true,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "Thrust is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://thrust-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/thrust-client",
+    "githubServer": "https://github.com/asik247/thrust-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=Thrust",
+    "coverImage": "https://placehold.co/1600x900/png?text=Thrust+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=Thrust+Screen+1",
+      "https://placehold.co/1600x900/png?text=Thrust+Screen+2",
+      "https://placehold.co/1600x900/png?text=Thrust+Screen+3",
+      "https://placehold.co/1600x900/png?text=Thrust+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ec84d8dbc74254770f58904"
+    },
+    "projectId": 5,
+    "projectName": "SkillShare LMS",
+    "slug": "skillshare-lms",
+    "featured": false,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "SkillShare LMS is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://skillsharelms-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/skillshare-lms-client",
+    "githubServer": "https://github.com/asik247/skillshare-lms-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=SkillShare LMS",
+    "coverImage": "https://placehold.co/1600x900/png?text=SkillShare LMS+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+1",
+      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+2",
+      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+3",
+      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dba41ecccc3fc1626e53a130"
+    },
+    "projectId": 6,
+    "projectName": "SmartDeals Auction",
+    "slug": "smartdeals-auction",
+    "featured": false,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "SmartDeals Auction is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://smartdealsauction-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/smartdeals-auction-client",
+    "githubServer": "https://github.com/asik247/smartdeals-auction-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=SmartDeals Auction",
+    "coverImage": "https://placehold.co/1600x900/png?text=SmartDeals Auction+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+1",
+      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+2",
+      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+3",
+      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "43b026c48bbf33feff9243a8"
+    },
+    "projectId": 7,
+    "projectName": "NewsHub",
+    "slug": "newshub",
+    "featured": false,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "NewsHub is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://newshub-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/newshub-client",
+    "githubServer": "https://github.com/asik247/newshub-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=NewsHub",
+    "coverImage": "https://placehold.co/1600x900/png?text=NewsHub+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=NewsHub+Screen+1",
+      "https://placehold.co/1600x900/png?text=NewsHub+Screen+2",
+      "https://placehold.co/1600x900/png?text=NewsHub+Screen+3",
+      "https://placehold.co/1600x900/png?text=NewsHub+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f506b40928b5b7a767c76fb0"
+    },
+    "projectId": 8,
+    "projectName": "TechWave",
+    "slug": "techwave",
+    "featured": false,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "TechWave is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://techwave-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/techwave-client",
+    "githubServer": "https://github.com/asik247/techwave-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=TechWave",
+    "coverImage": "https://placehold.co/1600x900/png?text=TechWave+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=TechWave+Screen+1",
+      "https://placehold.co/1600x900/png?text=TechWave+Screen+2",
+      "https://placehold.co/1600x900/png?text=TechWave+Screen+3",
+      "https://placehold.co/1600x900/png?text=TechWave+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "08f86bebb2737f6a6f0fb23c"
+    },
+    "projectId": 9,
+    "projectName": "Payoo MFS",
+    "slug": "payoo-mfs",
+    "featured": false,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "Payoo MFS is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://payoomfs-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/payoo-mfs-client",
+    "githubServer": "https://github.com/asik247/payoo-mfs-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=Payoo MFS",
+    "coverImage": "https://placehold.co/1600x900/png?text=Payoo MFS+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+1",
+      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+2",
+      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+3",
+      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6f5da2cec255404e4fb44003"
+    },
+    "projectId": 10,
+    "projectName": "Portfolio Pro",
+    "slug": "portfolio-pro",
+    "featured": false,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "4-6 Months",
+    "overview": "Portfolio Pro is a professional full-stack application built to solve real-world business problems with a modern user experience.",
+    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
+    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
+    "whatIBuilt": [
+      "Modern frontend application",
+      "REST API backend",
+      "Role-based authentication",
+      "Dashboard and analytics",
+      "Database architecture"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Authentication",
+      "Responsive Design",
+      "Dashboard",
+      "CRUD Operations",
+      "Search & Filtering",
+      "Secure APIs"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Performance optimization",
+      "Authentication security",
+      "State management",
+      "Scalable architecture"
+    ],
+    "resultsAndImpact": [
+      "Improved user experience",
+      "Reduced manual workflow",
+      "Scalable foundation for future growth"
+    ],
+    "futureImprovements": [
+      "Mobile app",
+      "AI features",
+      "Real-time notifications"
+    ],
+    "metrics": {
+      "performanceScore": 95,
+      "seoScore": 92,
+      "accessibilityScore": 94,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://portfoliopro-demo.netlify.app",
+    "githubClient": "https://github.com/asik247/portfolio-pro-client",
+    "githubServer": "https://github.com/asik247/portfolio-pro-server",
+    "thumbnail": "https://placehold.co/800x600/png?text=Portfolio Pro",
+    "coverImage": "https://placehold.co/1600x900/png?text=Portfolio Pro+Cover",
+    "gallery": [
+      "https://placehold.co/1600x900/png?text=Portfolio Pro+Screen+1",
+      "https://placehold.co/1600x900/png?text=Portfolio Pro+Screen+2",
+      "https://placehold.co/1600x900/png?text=Portfolio Pro+Screen+3",
+      "https://placehold.co/1600x900/png?text=Portfolio Pro+Screen+4"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Senior Developer",
+      "quote": "Well-structured project with strong technical implementation."
+    }
+  }
+]

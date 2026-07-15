@@ -1,6 +1,20 @@
-import React from 'react';
-
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 const Projects = () => {
+    //Todo projects data store state here;
+    const [projects,setProjects] = useState([]);
+    //Todo projects data get using useEffect;
+    useEffect(()=>{
+        const getProjects = async()=>{
+            try{
+                const res = await axios.get('/projecsData.json');
+                console.log(res.data);
+            }catch(err){
+                console.log(err);
+            }
+        }
+        getProjects()
+    },[])
     return (
         <div>
             <h1>Projects</h1>
