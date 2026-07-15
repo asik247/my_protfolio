@@ -144,7 +144,7 @@ const About = () => {
                                 <FaArrowRight />
                             </motion.button>
 
-                            <Link to={'/projectDetail/id'}>
+                            <Link to={'/allProjects'}>
                                 <motion.button
                                     whileHover={{ scale: 1.04 }}
                                     whileTap={{ scale: 0.97 }}

@@ -121,7 +121,7 @@ const Projects = () => {
                 </p>
 
                 <Link
-                   to={'/projectDetail'}
+                   to={'/allProjects'}
                     className="group inline-flex items-center gap-2 font-mono text-sm text-base-content border border-base-300 rounded-full px-6 py-3 hover:border-emerald-400/60 hover:text-emerald-400 hover:bg-emerald-400/5 transition-all duration-300"
                 >
                     view all projects
