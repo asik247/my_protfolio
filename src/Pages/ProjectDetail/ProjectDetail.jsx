@@ -72,10 +72,18 @@ const ProjectDetail = () => {
 
     const activeIndex = SECTIONS.findIndex((s) => s.id === active);
 
+    // Instead of just a boolean, we now store WHICH image is open.
+    // null = modal closed, otherwise it holds the image src to show.
+    const [modalImage, setModalImage] = useState(null);
+
+    const openImage = (src) => setModalImage(src);
+    const closeImage = () => setModalImage(null);
+
     //Todo loading implement;
     if (loading) {
         return <p>loading...</p>
     }
+    const galleryImg = project.gallery
     return (
         <div className="w-full p-2 mt-20 md:mt-30 ">
             <div className="grid lg:grid-cols-[1fr_280px] gap-16 items-start">
@@ -120,18 +128,29 @@ const ProjectDetail = () => {
                     </div>
 
                     {/* Overview */}
-                    <section id="overview" className="mt-24 scroll-mt-32">
+                    <section id="overview" className="mt-20  scroll-mt-32">
                         <h2 className="text-3xl font-bold mb-6">Overview</h2>
                         <p className="text-neutral-500 leading-8">
                             {project.overview}
                         </p>
                     </section>
                     {/* Cover */}
-                    <img
-                        src={project.coverImage}
-                        alt={project.projectName}
-                        className="w-full rounded-3xl border border-base-300"
-                    />
+                    <div
+                        onClick={() => openImage(project.coverImage)}
+                        className="relative group cursor-zoom-in mt-14"
+                    >
+                        <img
+                            src={project.coverImage}
+                            alt={project.projectName}
+                            className="w-full rounded-3xl border border-base-300 transition duration-500"
+                        />
+
+                        <div className="absolute inset-0 rounded-3xl bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
+                            <span className="opacity-0 group-hover:opacity-100 text-white text-sm font-medium backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+                                Click to enlarge
+                            </span>
+                        </div>
+                    </div>
                     {/* Problem */}
                     <section id="problem" className="mt-24 scroll-mt-32">
                         <h2 className="text-3xl font-bold mb-6">The Problem</h2>
@@ -141,7 +160,7 @@ const ProjectDetail = () => {
                     </section>
 
                     {/* What I Built */}
-                    <section id="built" className="mt-24 scroll-mt-32">
+                    <section id="built" className="mt-24 scroll-mt-32  ">
                         <h2 className="text-3xl font-bold mb-6">
                             What I Built
                         </h2>
@@ -158,6 +177,30 @@ const ProjectDetail = () => {
                             ))}
                         </ul>
                     </section>
+                    {/* Gallery imgs */}
+                    <div className="my-14">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {galleryImg?.map((img, index) => (
+                                <div
+                                    key={index}
+                                    onClick={() => openImage(img)}
+                                    className="relative group cursor-zoom-in overflow-hidden rounded-xl"
+                                >
+                                    <img
+                                        src={img}
+                                        alt={`Gallery ${index + 1}`}
+                                        className="w-full rounded-xl h-64 md:h-71 object-cover transition duration-500 group-hover:scale-105"
+                                    />
+
+                                    <div className="absolute inset-0 rounded-xl bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
+                                        <span className="opacity-0 group-hover:opacity-100 text-white text-sm font-medium backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+                                            Click to enlarge
+                                        </span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
 
                     {/* Tech Stack */}
                     <section id="stack" className="mt-24 scroll-mt-32">
@@ -311,6 +354,27 @@ const ProjectDetail = () => {
                     </div>
                 </aside>
             </div>
+            {/* modal - shows whichever image (cover or gallery) was clicked */}
+            {modalImage && (
+                <div
+                    className="fixed inset-0 z-[9999] bg-black/90 flex items-center justify-center p-4"
+                    onClick={closeImage}
+                >
+                    <img
+                        src={modalImage}
+                        alt={project.projectName}
+                        className="max-w-[95vw] max-h-[95vh] rounded-2xl"
+                        onClick={(e) => e.stopPropagation()}
+                    />
+
+                    <button
+                        onClick={closeImage}
+                        className="absolute top-5 right-5 text-white text-5xl"
+                    >
+                        ×
+                    </button>
+                </div>
+            )}
         </div>
     );
 };

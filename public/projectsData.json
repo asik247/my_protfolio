@@ -71,12 +71,14 @@
     "githubClient": "https://github.com/asik247/localchefbazaar-client",
     "githubServer": "https://github.com/asik247/localchefbazaar-server",
     "thumbnail": "https://placehold.co/800x600/png?text=LocalChefBazaar",
-    "coverImage": "https://placehold.co/1600x900/png?text=LocalChefBazaar+Cover",
+    "coverImage": "https://i.ibb.co.com/8LkRWgjq/localchefbazaar-home.jpg",
     "gallery": [
-      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+1",
-      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+2",
-      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+3",
-      "https://placehold.co/1600x900/png?text=LocalChefBazaar+Screen+4"
+      "https://i.ibb.co.com/39JDY7tQ/localchefbazaar-chef-home.jpg",
+      
+      "https://i.ibb.co.com/GvxvNtmn/localchefbazaar-order-requests.jpg",
+      "https://i.ibb.co.com/sd5qCYwR/localchefbazaar-manage-users.jpg",
+      "https://i.ibb.co.com/TMNMtJQ9/localchefbazaar-platform-stats.jpg"
+     
     ],
     "testimonial": {
       "name": "Project Reviewer",
@@ -156,12 +158,13 @@
     "githubClient": "https://github.com/asik247/zap-shift-client",
     "githubServer": "https://github.com/asik247/zap-shift-server",
     "thumbnail": "https://placehold.co/800x600/png?text=Zap-Shift",
-    "coverImage": "https://placehold.co/1600x900/png?text=Zap-Shift+Cover",
+    "coverImage": "https://i.ibb.co.com/VWrzpssw/Screenshot-64.png",
     "gallery": [
-      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+1",
-      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+2",
-      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+3",
-      "https://placehold.co/1600x900/png?text=Zap-Shift+Screen+4"
+      "https://i.ibb.co.com/hTgn9R2/Screenshot-66.png",
+      "https://i.ibb.co.com/DnpX1GJ/Screenshot-65.png",
+      "https://i.ibb.co.com/7JqgcV25/Screenshot-69.png",
+      "https://i.ibb.co.com/zHWByxmg/Screenshot-67.png",
+      "https://i.ibb.co.com/sdF0XgFN/Screenshot-68.png"
     ],
     "testimonial": {
       "name": "Project Reviewer",
