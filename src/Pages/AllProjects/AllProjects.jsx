@@ -21,7 +21,7 @@ const AllProjects = () => {
     }, []);
 
     return (
-        <div className='w-full mt-30 mb-32 p-2 border-2 border-red-500'>
+        <div className='w-full mt-30 mb-32 p-2'>
             <p className='text-gray-400'>~ / projects ·  {projects.length} entries</p>
             <motion.h1
                 initial={{ opacity: 0, y: 30 }}

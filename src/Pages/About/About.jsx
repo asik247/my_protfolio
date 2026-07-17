@@ -144,8 +144,8 @@ const About = () => {
                                 <FaArrowRight />
                             </motion.button>
 
-                            <Link to={'/allProjects'}>
-                                <motion.button
+                            
+                                <motion.button onClick={()=>document.getElementById("projects")?.scrollIntoView({behavior:'smooth'})}
                                     whileHover={{ scale: 1.04 }}
                                     whileTap={{ scale: 0.97 }}
                                     className="btn btn-outline rounded-full px-8 font-mono normal-case group"
@@ -159,7 +159,7 @@ const About = () => {
                                     </motion.span>
                                     ls projects/
                                 </motion.button>
-                            </Link>
+                            
 
                         </motion.div>
 
