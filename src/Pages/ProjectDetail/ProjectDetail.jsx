@@ -298,7 +298,7 @@ const ProjectDetail = () => {
                                             className={[
                                                 "text-sm transition-colors duration-200",
                                                 isActive
-                                                    ? "text-neutral-900 font-medium"
+                                                    ? "text-neutral-500 font-medium"
                                                     : "text-neutral-500 group-hover:text-emerald-600",
                                             ].join(" ")}
                                         >
