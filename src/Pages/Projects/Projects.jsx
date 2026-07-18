@@ -37,7 +37,7 @@ const Projects = () => {
 
                     <h2 className="text-3xl md:text-5xl font-black leading-none">
                         Selected
-                        
+
                         Projects
                     </h2>
                 </div>
@@ -83,21 +83,22 @@ const Projects = () => {
                         </div>
 
                         {/* Footer meta */}
-                        <div className="relative flex items-center justify-between mt-8 pt-4 border-t border-base-300">
+                        <div className="relative flex items-center justify-between  mt-8 pt-4 border-t border-base-300">
                             <p className="font-semibold text-base-content/80 text-sm">
                                 {project.role}
                             </p>
 
                             {project.liveLink ? (
-                                
-                                  < a href={project.liveLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onClick={(e) => e.stopPropagation()}
-                                    className="flex items-center gap-1 text-emerald-400 font-mono text-sm hover:underline underline-offset-4"
+                                <button
+                                    onClick={(e) => {
+                                        e.preventDefault(); 
+                                        e.stopPropagation();
+                                        window.open(project.liveLink, "_blank", "noopener,noreferrer");
+                                    }}
+                                    className="flex items-center gap-1 cursor-pointer text-emerald-400 font-mono text-sm hover:underline underline-offset-4"
                                 >
                                     ↗ live
-                                </a>
+                                </button>
                             ) : (
                                 <span className="flex items-center gap-1 text-emerald-400 font-mono text-sm transition-all duration-300 group-hover:gap-2">
                                     view
@@ -121,7 +122,7 @@ const Projects = () => {
                 </p>
 
                 <Link
-                   to={'/allProjects'}
+                    to={'/allProjects'}
                     className="group inline-flex items-center gap-2 font-mono text-sm text-base-content border border-base-300 rounded-full px-6 py-3 hover:border-emerald-400/60 hover:text-emerald-400 hover:bg-emerald-400/5 transition-all duration-300"
                 >
                     view all projects

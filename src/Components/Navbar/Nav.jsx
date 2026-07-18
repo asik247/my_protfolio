@@ -18,7 +18,7 @@ const Nav = ({ theme, setTheme }) => {
     const routeLinks = [
         { name: "~/blog", path: "/blog" },
         { name: "~/about", path: "/about" },
-        { name: "~/reviews", path: "/reviews" },
+        { name: "~/journey", path: "/journey" },
     ];
 
     useEffect(() => {

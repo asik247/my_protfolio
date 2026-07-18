@@ -4,7 +4,6 @@ import GithubSection from '../GithubDetails/GithubSection';
 import Projects from '../Projects/Projects';
 import AboutMe from '../AboutMe/AboutMe';
 import Blog from '../Blog/Blog';
-import Reviews from '../Reviews/Reviews';
 import Contact from '../Contact/Contact';
 
 const Home = () => {

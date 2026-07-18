@@ -114,7 +114,7 @@ const Blog = () => {
                             return (
                                 <Link
                                     key={post.id}
-                                    to={`/blog/${post.id}`}
+                                    to={'#'}
                                     className={`group flex flex-col md:flex-row md:items-center gap-3 md:gap-8 py-7 px-4 -mx-4 rounded-lg border border-transparent transition-all duration-300  ${style.border}`}
                                 >
                                     <div className="flex items-center gap-3 md:w-40 shrink-0">
