@@ -67,18 +67,16 @@
       "accessibilityScore": 94,
       "responsiveScore": 100
     },
-    "liveLink": "https://localchefbazaar-demo.netlify.app",
+    
     "githubClient": "https://github.com/asik247/localchefbazaar-client",
     "githubServer": "https://github.com/asik247/localchefbazaar-server",
     "thumbnail": "https://placehold.co/800x600/png?text=LocalChefBazaar",
     "coverImage": "https://i.ibb.co.com/8LkRWgjq/localchefbazaar-home.jpg",
     "gallery": [
       "https://i.ibb.co.com/39JDY7tQ/localchefbazaar-chef-home.jpg",
-      
       "https://i.ibb.co.com/GvxvNtmn/localchefbazaar-order-requests.jpg",
       "https://i.ibb.co.com/sd5qCYwR/localchefbazaar-manage-users.jpg",
       "https://i.ibb.co.com/TMNMtJQ9/localchefbazaar-platform-stats.jpg"
-     
     ],
     "testimonial": {
       "name": "Project Reviewer",
@@ -154,7 +152,7 @@
       "accessibilityScore": 94,
       "responsiveScore": 100
     },
-    "liveLink": "https://zap-shift-demo.netlify.app",
+    
     "githubClient": "https://github.com/asik247/zap-shift-client",
     "githubServer": "https://github.com/asik247/zap-shift-server",
     "thumbnail": "https://placehold.co/800x600/png?text=Zap-Shift",
@@ -170,6 +168,92 @@
       "name": "Project Reviewer",
       "designation": "Senior Developer",
       "quote": "Well-structured project with strong technical implementation."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f219e9cb0eb53f16947ccf2"
+    },
+    "projectId": 4,
+    "projectName": "Abash Builders & Lands",
+    "slug": "abash-builders-lands",
+    "featured": true,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "teamSize": 1,
+    "year": 2026,
+    "duration": "2-3 Months",
+    "overview": "Abash Builders & Lands is a modern real estate platform designed to showcase residential and commercial properties, streamline property inquiries, and provide a seamless browsing experience for potential buyers and investors.",
+    "problem": "Traditional property listing methods lacked an engaging digital presence, making it difficult for users to discover available properties and connect with real estate agents efficiently.",
+    "solution": "Developed a responsive full-stack real estate platform with property listings, advanced search functionality, inquiry management, and a professional user interface to enhance customer engagement.",
+    "whatIBuilt": [
+      "Modern real estate frontend application",
+      "Property listing management system",
+      "Advanced property search and filtering",
+      "Responsive landing pages",
+      "Inquiry and contact management system"
+    ],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "keyFeatures": [
+      "Property Listings",
+      "Advanced Search",
+      "Property Details Page",
+      "Responsive Design",
+      "Contact & Inquiry Forms",
+      "Secure Authentication"
+    ],
+    "responsibilities": [
+      "UI/UX Design",
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "Deployment"
+    ],
+    "challenges": [
+      "Managing large property datasets",
+      "Optimizing property search performance",
+      "Building responsive layouts across devices",
+      "Ensuring secure data handling"
+    ],
+    "resultsAndImpact": [
+      "Improved online visibility for properties",
+      "Enhanced user engagement and inquiry generation",
+      "Provided a scalable digital platform for future business growth"
+    ],
+    "futureImprovements": [
+      "Interactive map integration",
+      "Property comparison feature",
+      "Real-time chat support",
+      "AI-powered property recommendations"
+    ],
+    "metrics": {
+      "performanceScore": 96,
+      "seoScore": 95,
+      "accessibilityScore": 93,
+      "responsiveScore": 100
+    },
+    "liveLink": "https://abash-builders-and-lands.vercel.app/",
+    "githubClient": "https://github.com/asik247",
+    "githubServer": "https://github.com/asik247",
+    "thumbnail": "https://placehold.co/800x600/png?text=Abash+Builders+%26+Lands",
+    "coverImage": "https://i.ibb.co.com/mCC3cnMx/Screenshot-91.png",
+    "gallery": [
+      "https://i.ibb.co.com/mrjrpVbc/Screenshot-92.png",
+      "https://i.ibb.co.com/TBtzhcy6/Screenshot-95.png",
+      "https://i.ibb.co.com/pv3NkNNR/Screenshot-94.png",
+      "https://i.ibb.co.com/gFBYCthy/Screenshot-93.png"
+    ],
+    "testimonial": {
+      "name": "Project Reviewer",
+      "designation": "Real Estate Consultant",
+      "quote": "A clean and professional real estate platform with excellent user experience and modern design standards."
     }
   },
   {
@@ -259,91 +343,6 @@
   },
   {
     "_id": {
-      "$oid": "8f219e9cb0eb53f16947ccf2"
-    },
-    "projectId": 4,
-    "projectName": "Thrust",
-    "slug": "thrust",
-    "featured": true,
-    "status": "Completed",
-    "role": "Full Stack Developer",
-    "teamSize": 1,
-    "year": 2026,
-    "duration": "4-6 Months",
-    "overview": "Thrust is a professional full-stack application built to solve real-world business problems with a modern user experience.",
-    "problem": "Users needed a faster, scalable, and more intuitive digital solution.",
-    "solution": "Designed and developed a complete MERN-based platform with secure authentication, dashboards, and responsive UI.",
-    "whatIBuilt": [
-      "Modern frontend application",
-      "REST API backend",
-      "Role-based authentication",
-      "Dashboard and analytics",
-      "Database architecture"
-    ],
-    "techStack": [
-      "React",
-      "Tailwind CSS",
-      "Firebase",
-      "Node.js",
-      "Express.js",
-      "MongoDB"
-    ],
-    "keyFeatures": [
-      "Authentication",
-      "Responsive Design",
-      "Dashboard",
-      "CRUD Operations",
-      "Search & Filtering",
-      "Secure APIs"
-    ],
-    "responsibilities": [
-      "UI/UX Design",
-      "Frontend Development",
-      "Backend Development",
-      "Database Design",
-      "Deployment"
-    ],
-    "challenges": [
-      "Performance optimization",
-      "Authentication security",
-      "State management",
-      "Scalable architecture"
-    ],
-    "resultsAndImpact": [
-      "Improved user experience",
-      "Reduced manual workflow",
-      "Scalable foundation for future growth"
-    ],
-    "futureImprovements": [
-      "Mobile app",
-      "AI features",
-      "Real-time notifications"
-    ],
-    "metrics": {
-      "performanceScore": 95,
-      "seoScore": 92,
-      "accessibilityScore": 94,
-      "responsiveScore": 100
-    },
-    "liveLink": "https://thrust-demo.netlify.app",
-    "githubClient": "https://github.com/asik247/thrust-client",
-    "githubServer": "https://github.com/asik247/thrust-server",
-    "thumbnail": "https://placehold.co/800x600/png?text=Thrust",
-    "coverImage": "https://placehold.co/1600x900/png?text=Thrust+Cover",
-    "gallery": [
-      "https://placehold.co/1600x900/png?text=Thrust+Screen+1",
-      "https://placehold.co/1600x900/png?text=Thrust+Screen+2",
-      "https://placehold.co/1600x900/png?text=Thrust+Screen+3",
-      "https://placehold.co/1600x900/png?text=Thrust+Screen+4"
-    ],
-    "testimonial": {
-      "name": "Project Reviewer",
-      "designation": "Senior Developer",
-      "quote": "Well-structured project with strong technical implementation."
-    }
-  },
-  {
-    "_id": {
       "$oid": "5ec84d8dbc74254770f58904"
     },
     "projectId": 5,
@@ -414,12 +413,13 @@
     "githubClient": "https://github.com/asik247/skillshare-lms-client",
     "githubServer": "https://github.com/asik247/skillshare-lms-server",
     "thumbnail": "https://placehold.co/800x600/png?text=SkillShare LMS",
-    "coverImage": "https://placehold.co/1600x900/png?text=SkillShare LMS+Cover",
+    "coverImage": "https://i.ibb.co.com/d0Ywg4Tb/Screenshot-83.png",
     "gallery": [
-      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+1",
-      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+2",
-      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+3",
-      "https://placehold.co/1600x900/png?text=SkillShare LMS+Screen+4"
+      "https://i.ibb.co.com/LzLdJPFw/Screenshot-85.png",
+      "https://i.ibb.co.com/tPKXjGsK/Screenshot-90.png",
+      "https://i.ibb.co.com/kswnMk1X/Screenshot-84.png",
+      "https://i.ibb.co.com/bjqkhX9Z/Screenshot-88.png",
+      "https://i.ibb.co.com/YT2HpPrL/Screenshot-87.png"
     ],
     "testimonial": {
       "name": "Project Reviewer",
@@ -499,12 +499,12 @@
     "githubClient": "https://github.com/asik247/smartdeals-auction-client",
     "githubServer": "https://github.com/asik247/smartdeals-auction-server",
     "thumbnail": "https://placehold.co/800x600/png?text=SmartDeals Auction",
-    "coverImage": "https://placehold.co/1600x900/png?text=SmartDeals Auction+Cover",
+    "coverImage": "https://i.ibb.co.com/SwFmvtQn/Screenshot-71.png",
     "gallery": [
-      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+1",
-      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+2",
-      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+3",
-      "https://placehold.co/1600x900/png?text=SmartDeals Auction+Screen+4"
+      "https://i.ibb.co.com/rRQJcmsb/Screenshot-75.png",
+      "https://i.ibb.co.com/8g7JP4s9/Screenshot-76.png",
+      "https://i.ibb.co.com/6cNfxvC6/Screenshot-72.png",
+      "https://i.ibb.co.com/YTw8zJ95/Screenshot-73.png"
     ],
     "testimonial": {
       "name": "Project Reviewer",
@@ -754,12 +754,12 @@
     "githubClient": "https://github.com/asik247/payoo-mfs-client",
     "githubServer": "https://github.com/asik247/payoo-mfs-server",
     "thumbnail": "https://placehold.co/800x600/png?text=Payoo MFS",
-    "coverImage": "https://placehold.co/1600x900/png?text=Payoo MFS+Cover",
+    "coverImage": "https://i.ibb.co.com/3mwfgjDj/Screenshot-78.png",
     "gallery": [
-      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+1",
-      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+2",
-      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+3",
-      "https://placehold.co/1600x900/png?text=Payoo MFS+Screen+4"
+      "https://i.ibb.co.com/sJswdLTZ/Screenshot-77.png",
+      "https://i.ibb.co.com/r2M7xYPV/Screenshot-81.png",
+      "https://i.ibb.co.com/PsJgvtPY/Screenshot-79.png",
+      "https://i.ibb.co.com/r2rtkMtd/Screenshot-82.png"
     ],
     "testimonial": {
       "name": "Project Reviewer",

@@ -88,9 +88,9 @@ const Projects = () => {
                                 {project.role}
                             </p>
 
-                            {project.liveUrl ? (
+                            {project.liveLink ? (
                                 
-                                  < a href={project.liveUrl}
+                                  < a href={project.liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     onClick={(e) => e.stopPropagation()}
